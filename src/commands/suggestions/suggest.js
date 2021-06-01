@@ -39,7 +39,7 @@ module.exports = {
 
      const embed = new Discord.MessageEmbed()
        .setTitle("Suggestion")
-       .setColor("#FFE65D")
+       .setColor("#FF2C4B")
        .setDescription(sgs)
        .setTimestamp(new Date());
 
