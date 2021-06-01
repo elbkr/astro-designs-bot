@@ -1,14 +1,13 @@
 {
-  "prefix": "s/",
-  "server_id": "837204815733719060",
-  "suggestion_ch": "842936637062119425",
-  "levelup_ch": "849225374634213406",
+  "prefix": "a/",
+  "server_id": "824374512639541309",
+  "suggestion_ch": "824383214281818142",
   "tick_emoji": "<a:is_tick:849226047319834624>",
   "cross_emoji":  "<a:is_cross:849226130786353152>",
-  "f_emojii":  "<:is_f:849234462155866134>",
-  "afk_emoji": "",
-  "images_emoji": "",
-  "expressions_emoji": "",
-  "fun_emoji": "",
-  "useful_emoji": ""
+  "f_emojii":  "<:is_f:849376423830749226>",
+  "afk_emoji": "<:is_afk:849376424141783070>",
+  "images_emoji": "<:is_images:849376424418213918>",
+  "expressions_emoji": "<:is_expressions:849376424150433798>",
+  "fun_emoji": "<:is_fun:849376424040595506>",
+  "useful_emoji": "<:is_useful:849376424166686720>"
 }
