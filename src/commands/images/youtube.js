@@ -17,7 +17,7 @@ module.exports = {
 
       if (!args[0]) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the YouTube comment!"
+          "You have to write the YouTube comment!"
         );
       }
 
@@ -38,7 +38,7 @@ module.exports = {
 
       if (!text) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the YouTube comment!"
+          "You have to write the YouTube comment!"
         );
       }
       let image = await canvacord.Canvas.youtube({
