@@ -11,7 +11,7 @@ module.exports = {
       );
 
     const embed = new MessageEmbed()
-      .setColor("#ffe65d")
+      .setColor("#FF2C4B")
       .setTitle(`Icon of ${message.guild.name}`)
       .setImage(
         `${message.guild.iconURL({ size: 1024, dynamic: true, format: "png" })}`
