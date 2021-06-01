@@ -20,7 +20,7 @@ module.exports = {
         .setDescription(
           `**${message.author.username}** hugged **${user.username}** ʕっ•ᴥ•ʔっ`
         )
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
