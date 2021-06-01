@@ -21,7 +21,7 @@ module.exports = {
         .setDescription(
           `**${message.author.username}** patted with love **${user.username}** (・3・)`
         )
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
