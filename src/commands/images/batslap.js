@@ -14,7 +14,7 @@ module.exports = {
             const user = message.mentions.users.first()
             
             if(!message.mentions.users.first()) {
-                return message.channel.send(`<:sh_wait:817144214667132949> You have to mention someone to slap on da face >;(`)
+                return message.channel.send(`You have to mention someone to slap on da face >;(`)
             }
             let avatar2 = user.displayAvatarURL({ dynamic: false, format: 'png' });
 
