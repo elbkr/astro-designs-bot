@@ -19,7 +19,7 @@ module.exports = {
         .setDescription(
           `**${message.author.username}** started tickling **${user.username}** `
         )
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
