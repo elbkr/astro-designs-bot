@@ -13,7 +13,7 @@ module.exports = {
 
       let newEmbed = new MessageEmbed()
         .setDescription(`**BBAKAAAAAA** ** ୧༼ಠ益ಠ༽୨`)
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     } else {
@@ -21,7 +21,7 @@ module.exports = {
 
       let newEmbed = new MessageEmbed()
         .setDescription(`**BBAKAAAAAA** ${user.username} ** ୧༼ಠ益ಠ༽୨`)
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
