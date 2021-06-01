@@ -15,7 +15,7 @@ module.exports = {
 
       if (!args) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the phub comment!"
+          "You have to write the phub comment!"
         );
       }
       let text = args.join(" ");
@@ -35,7 +35,7 @@ module.exports = {
 
       if (!text) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the phub comment!"
+          "You have to write the phub comment!"
         );
       }
       let image = await canvacord.Canvas.phub({
