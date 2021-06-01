@@ -9,9 +9,6 @@
     "`kiss` `slap` `hug` `feed` `pat` `poke` `baka` `cuddle` `smug` `tickle`"
   ],
   "helpMsg4": [
-    "`suggest` `avatar` `server` `icon` `whois` `wiki`"
-  ],
-  "helpMsg5": [
-    "`help`"
+    "`help` `suggest` `avatar` `server` `icon` `whois` `wiki`"
   ]
 }
