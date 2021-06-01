@@ -21,7 +21,7 @@ module.exports = {
       .setDescription(
         `**${message.author.username}** has kissed **${user.username}** ︎(っ˘з(˘⌣˘ )`
       )
-      .setColor("#ffe65d")
+      .setColor("#FF2C4B")
       .setImage(owo.url);
 
     message.channel.send(newEmbed);
