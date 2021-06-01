@@ -51,9 +51,9 @@ module.exports = {
 
       var helpMessage = await message.channel.send(embed);
 
-      await helpMessage.react("<:sh_mods:813491189780971542>");
-      await helpMessage.react("<:sh_np:812824625720590367>");
-      await helpMessage.react("<:sh_utils:813491190069461082>");
+      await helpMessage.react(images_emoji);
+      await helpMessage.react(expressions_emoji);
+      await helpMessage.react(useful_emoj);
       await helpMessage.react(fun_emoji);
 
       const filter = (reaction, user) =>
