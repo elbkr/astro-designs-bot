@@ -17,7 +17,7 @@ module.exports = {
 
       if (!args) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the content of the fake message"
+          "You have to write the content of the fake message"
         );
       }
 
@@ -47,7 +47,7 @@ module.exports = {
 
       if (!output) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the content of the fake message"
+          "You have to write the content of the fake message"
         );
       }
 
