@@ -2,7 +2,7 @@ const chalk = require("chalk");
 const mongoose = require("mongoose");
 
 module.exports = (client) => {
-  client.user.setActivity("in ISRP | s/help", { type: "PLAYING" });
+  client.user.setActivity("your designs | a/help", { type: "WATCHING" });
 
   let allMembers = new Set();
   client.guilds.cache.forEach((guild) => {
@@ -23,25 +23,4 @@ module.exports = (client) => {
     chalk.bgMagentaBright.black(` ${client.channels.cache.size} channels `),
     chalk.bgMagentaBright.black(` ${allMembers.size} members `)
   );
-
-  /*
-  mongoose
-    .connect(process.env.mongo_url, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
-    })
-    .then(
-      console.log(
-        chalk.bgGreenBright.black(` ${client.user.username} connecting to Mongo DB `)
-      )
-    )
-    .catch((err) =>
-      console.log(
-        chalk
-          .bgRedBright
-          .black(` ${client.user.username} could not connect to mongo DB `)
-      )
-    );
-*/
 };
