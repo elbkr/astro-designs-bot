@@ -15,7 +15,7 @@ module.exports = {
         .setDescription(
           `**${message.author.username}** smugged about that (˘⌣˘ )**`
         )
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
