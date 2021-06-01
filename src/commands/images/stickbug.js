@@ -14,7 +14,7 @@ module.exports = {
       });
 
       message.channel
-        .send("<:sh_wait:817144214667132949> It may take a while...")
+        .send("It may take a while...")
         .then(async (msg) => {
           const image = await api.generate("stickbug", { url: avatar });
 
@@ -32,7 +32,7 @@ module.exports = {
       });
 
       message.channel
-        .send("<:sh_wait:817144214667132949> It may take a while...")
+        .send("It may take a while...")
         .then(async (msg) => {
           const image = await api.generate("stickbug", { url: avatar });
 
