@@ -20,7 +20,7 @@ module.exports = {
         .setDescription(
           `**${message.author.username}** gave some food to **${user.username}**`
         )
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
