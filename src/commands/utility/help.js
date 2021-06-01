@@ -70,10 +70,10 @@ module.exports = {
             reaction.users.remove(member).catch(console.error);
 
             let modsMessage = new MessageEmbed()
-              .setColor("#ffe65d")
-              .setTitle("<:sh_mods:813491189780971542> Moderation commands")
+              .setColor("#FF2C4B")
+              .setTitle(`${images_emoji} Images commands`)
               .setDescription(
-                "Moderation commands are used to keep the server safe and clean!"
+                "Image commands are used to transform people's avatars, making funny images and memes"
               )
               .addField("available commands", help.helpMsg1)
               .addField(
@@ -87,15 +87,12 @@ module.exports = {
           case "is_expressions":
             reaction.users.remove(member).catch(console.error);
             let musicMessage = new MessageEmbed()
-              .setColor("#ffe65d")
-              .setTitle("<:sh_np:812824625720590367> Music commands")
+              .setColor("#FF2C4B")
+              .setTitle(`${expressions_emoji} Expression commands`)
               .setDescription(
-                "Music commands are used to play songs in a voice channel!\rFor some reason, the commands won't work. I'm trying to fix it as soon as possible"
+                "Expression commands are used to express yourself using cool gifs"
               )
-              .addField(
-                "available commands",
-                "Music commands currently disabled while we fix all the issues"
-              )
+              .addField("available commands", help.helpMsg3)
               .addField(
                 `\u200b`,
                 `Type \`${pr}help <command>\` to get detailed info about that command`
@@ -106,12 +103,11 @@ module.exports = {
           case "is_fun":
             reaction.users.remove(member).catch(console.error);
             let funMessage = new MessageEmbed()
-              .setColor("#ffe65d")
-              .setTitle("<:sh_fun:813491190145482773> Fun & actions commands")
+              .setColor("#FF2C4B")
+              .setTitle(`${fun_emoji} Fun & actions commands`)
               .setDescription("Fun & actions commands were made to have fun!!!")
               .addField(
-                "available commands",
-                `Fun\r${help.helpMsg4}\rActions\r${help.helpMsg41}`
+                "available commands", help.helpMsg2
               )
               .addField(
                 `\u200b`,
@@ -124,12 +120,12 @@ module.exports = {
           case "is_useful":
             reaction.users.remove(member).catch(console.error);
             let imageMessage = new MessageEmbed()
-              .setColor("#ffe65d")
-              .setTitle("<:sh_images:813491189772058627> Image commands")
+              .setColor("#FF2C4B")
+              .setTitle(`${useful_emoji} Useful commands`)
               .setDescription(
-                "Image commands are used to transform people's avatars, making funny images and memes"
+                "Useful commands are used to get info about someone, getting it's avatar..."
               )
-              .addField("available commands", help.helpMsg3)
+              .addField("available commands", help.helpMsg4)
               .addField(
                 `\u200b`,
                 `Type \`${pr}help <command>\` to get detailed info about that command`
