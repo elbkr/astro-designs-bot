@@ -21,7 +21,7 @@ module.exports = {
         .setDescription(
           `**${user.username}** got a cuddle from **${message.author.username}**`
         )
-        .setColor("#ffe65d")
+        .setColor("#FF2C4B")
         .setImage(owo.url);
       message.channel.send(newEmbed);
     }
