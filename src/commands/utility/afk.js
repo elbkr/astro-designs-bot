@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const { afk } = require("../../collection/index");
+const { afk_emoji } = require('../../config.json')
 module.exports = {
   name: "afk",
   description: "Set your 'status' to afk so people know you are not in discord",
@@ -9,6 +10,6 @@ module.exports = {
     const reason = args.join(" ") || "AFK";
 
     afk.set(message.author.id, [Date.now(), reason]);
-    message.reply(`<:sh_zzz:822550709064564761> Set your afk: ${reason}`)
+    message.reply(`${afk_emoji} Set your afk: ${reason}`)
   },
 };
