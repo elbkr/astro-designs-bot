@@ -1,0 +1,43 @@
+{
+  "name": "astro-bot",
+  "version": "1.0.0",
+  "description": "astronomical designs bot",
+  "main": "src/astro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elttayman (https://github.com/elttayman)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elttayman/astro-designs-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discordjs",
+    "astro",
+    "designs",
+    "elttayman"
+  ],
+  "bugs": {
+    "url": "https://github.com/elttayman/astro-designs-bot/issues"
+  },
+  "homepage": "https://github.com/elttayman/astro-designs-bot#readme",
+  "dependencies": {
+    "canvacord": "^5.2.1",
+    "caxinha": "^0.2.62",
+    "chalk": "^4.1.1",
+    "claire-cord": "^1.0.0",
+    "common-tags": "^1.8.0",
+    "discord-image-generation": "^1.4.9",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "got": "^11.8.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.12",
+    "nekobot-api": "^2.1.0",
+    "nekos.life": "^2.0.7",
+    "node-superfetch": "^0.2.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "prefix": "text_here", // the bot prefix
+  "server_id": "text_here", // your server id
+  "suggestion_ch": "text_here", // the id of the channel where the suggestions will be sent
+  "tick_emoji": "text_here", // the id of the green emoji for suggestions
+  "cross_emoji":  "text_here", // the id of the redemoji for suggestions
+  "f_emojii":  "text_here", // the id of an emoji with the f button
+  "afk_emoji": "text_here", // the id of the emoji for afk command
+  "images_emoji": "text_here", // the id of the emoji for help msgs (images cmds)
+  "expressions_emoji": "text_here", // the id of the emoji for help msgs (expressions cmds)
+  "fun_emoji": "text_here", // the id of the emoji for help msgs (fun cmds)
+  "useful_emoji": "text_here" // the id of the emoji for help msgs (useful cmds)
+}

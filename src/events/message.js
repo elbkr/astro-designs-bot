@@ -30,6 +30,16 @@ module.exports = async (message, cooldowns) => {
       (cmd) => cmd.aliases && cmd.aliases.includes(commandName)
     );
 
+ // custom commands
+  const cmdModel = require("../models/cmd");
+
+  const ccmds = await cmdModel.findOne({
+    Guild: message.guild.id,
+    Command: commandName,
+  });
+
+  if (ccmds) message.channel.send(ccmds.Response);
+
   if (!command) return;
 
   // cooldowns

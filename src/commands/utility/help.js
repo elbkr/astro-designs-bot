@@ -21,7 +21,7 @@ module.exports = {
     
     if (!args[0]) {
       let embed = new MessageEmbed()
-        .setTitle("ISRP 2 commands")
+        .setTitle("Astro Bot commands")
         .setColor("#FF2C4B")
         .setDescription("React with the emoji of your choice")
         .addFields(
@@ -53,7 +53,7 @@ module.exports = {
 
       await helpMessage.react(images_emoji);
       await helpMessage.react(expressions_emoji);
-      await helpMessage.react(useful_emoj);
+      await helpMessage.react(useful_emoji);
       await helpMessage.react(fun_emoji);
 
       const filter = (reaction, user) =>
