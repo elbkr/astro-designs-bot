@@ -9,7 +9,7 @@ module.exports = {
     const user = message.mentions.users.first();
 
     if (!user) {
-        return message.channel.send('<:sh_wait:817144214667132949> You have to mention someone to make him cry!')
+        return message.channel.send('You have to mention someone to make him cry!')
     }
 
     let avatar = user.displayAvatarURL({ dynamic: false, format: "png" });
