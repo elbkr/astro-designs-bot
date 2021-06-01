@@ -15,7 +15,7 @@ module.exports = {
 
       if (!args) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the message that the son will say!"
+          "You have to write the message that the son will say!"
         );
       }
       let text = args;
@@ -30,7 +30,7 @@ module.exports = {
 
       if (!text) {
         return message.channel.send(
-          "<:sh_wait:817144214667132949> You have to write the message that the son will say!"
+          "You have to write the message that the son will say!"
         );
       }
 
