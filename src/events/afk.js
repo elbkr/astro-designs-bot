@@ -1,5 +1,6 @@
 const { afk } = require("../collection");
 const moment = require("moment");
+const { afk_emoji } = require('../config.json')
 
 module.exports = async (message) => {
   if (!message.guild) return;
@@ -16,7 +17,7 @@ module.exports = async (message) => {
 
       const Ago = moment(timestamp).fromNow();
 
-      message.reply(`<:sh_zzz:822550709064564761> **${mentioned.user.username}** is afk: ${reason} - ${Ago}`)
+      message.reply(`${afk_emoji} **${mentioned.user.username}** is afk: ${reason} - ${Ago}`)
     }
   }
 
@@ -26,7 +27,7 @@ module.exports = async (message) => {
       afk.delete(message.author.id)
 
       message.reply(
-        "<:sh_zzz:822550709064564761> Welcome back! Your AFK has been removed"
+        `${afk_emoji} Welcome back! Your AFK has been removed`
       );
   }
 };
