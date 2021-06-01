@@ -5,5 +5,10 @@
   "levelup_ch": "849225374634213406",
   "tick_emoji": "<a:is_tick:849226047319834624>",
   "cross_emoji":  "<a:is_cross:849226130786353152>",
-  "f_emojii":  "<:is_f:849234462155866134>"
+  "f_emojii":  "<:is_f:849234462155866134>",
+  "afk_emoji": "",
+  "images_emoji": "",
+  "expressions_emoji": "",
+  "fun_emoji": "",
+  "useful_emoji": ""
 }
